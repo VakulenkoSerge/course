@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+#logo-container {
+  padding: 10px;
+}
+
+#navig a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #fff;
+}
+
+#navig a:hover {
+  color: #ff5000;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.sidenav-overlay{
+    background-color: rgba(255,255,255,0.5);
+    z-index: 900;
+}
+
+#nav-mobile {
+  width: auto;
+}
+
+.dropdown-content {
+  top: -64px;
+}
+
+.video {
+  position: relative;
+}
+
+#ontop {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  animation: label 4s linear;
+}
+
+#ontop h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #fff;
+}
+
+@keyframes label {
+  from {
+    filter:opacity(0);
+    }
+  to {
+    filter: opacity(100);
+  }
+}
+
+.parallax-container {
+  height: auto;
+}
+
+#parallax-2 {
+  filter: brightness(0.5);
+}
